@@ -3,12 +3,11 @@ This is the Capstone project on Data analysis for the customer churn in Telecom 
 
 Co-created by Manoj ,Likhith
 Links:
-Project presentation: slideshow
 
-Dataset 1: 
+Dataset 1: Telecom Churn Data
 
 Project Summary:
-Orange S.A., formerly France Télécom S.A., is a French multinational telecommunications corporation. The Orange Telecom's Churn Dataset, consists of cleaned customer activity data (features), along with a churn label specifying whether a customer canceled the subscription.Here we need to explore and analyze the data to discover key factors responsible for customer churn and come up with ways/recommendations to ensure customer retention.
+Orange S.A., formerly France Télécom S.A., is a French multinational telecommunications corporation. The Orange Telecom's Churn Dataset, consists of cleaned customer activity data (features), along with a churn label specifying whether a customer canceled the subscription.Here we need to explore and analyze the data to discover key factors responsible for customer churn and come up with ways/recommendations to ensure customer retention.Find the model which will predict the value of Churn Target Variable
 
 Our Approach towards this project:
 Following are the steps involved in the exploratory data analysis. 
@@ -16,10 +15,12 @@ Following are the steps involved in the exploratory data analysis.
 Data Preprocessing: The pre-processing of data involves data cleaning, handling missing values and data transformation.
 Data Visualization: The visualization of data is done  to uncover the essential patterns and trends between variables.
 Data Interpretation: It involves finding patterns and analyzing the dependency of variables.
+Model Building and Evaluation:Different models (Logistic,Decsion tree,XGboost) are build and evaluated them
 Conclusion & Recommendation: To summarize all the points and providing recommendation to the company
 
 Conclusion of the Project
 
+Among all the models XGBoost perform best with Recall of 84% and Precision of 85%
 Overall Customer churn is 14.49%.
 For Vmail messages Feature, when there are more than 15 voice-mail messages then certainly there is a churn.
 Number of people Churned are higher in Texas(TX),Maryland (MD).
